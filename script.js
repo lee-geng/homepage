@@ -1,14 +1,11 @@
 const profile = {
   name: "陈立庚",
-  role: "Agent Researcher / AI Builder",
+  role: "agent research，deep learning",
   summary:
-    "我目前关注 Agent、人工智能系统与研究原型实现，喜欢把想法做成可验证、可交互、可展示的作品，让研究表达和工程落地能够在同一个界面里发生。",
+    "我目前聚焦 agent research 与 deep learning，也持续把研究问题做成可以运行、可以演示、可以交流的系统原型。这一页结合了我的研究方向、教育经历、代表性成果和个人表达。",
   keywords: [
     "Agent Research",
-    "AI Systems",
-    "Human-AI Collaboration",
-    "Interactive Visualization",
-    "Rapid Prototyping"
+    "Deep Learning"
   ],
   research: [
     {
@@ -17,56 +14,63 @@ const profile = {
       tags: ["Agent", "Reasoning", "Workflow"]
     },
     {
-      title: "人工智能系统",
-      text: "关注模型能力如何落到真实系统中，包括交互设计、信息组织、实验验证和从研究到原型的工程实现。",
-      tags: ["AI", "System Design", "Prototype"]
-    },
-    {
-      title: "研究展示与交互表达",
-      text: "希望通过动画、可视化和叙事化页面，把研究思路、项目过程和个人表达整合成更有感染力的展示体验。",
-      tags: ["Visualization", "Storytelling", "Frontend"]
+      title: "深度学习",
+      text: "关注深度学习方法在视觉理解、模型构建与实际任务中的应用，希望把理论能力转化为稳定、有效且可复现的研究结果。",
+      tags: ["Deep Learning", "Vision", "Modeling"]
     }
   ],
   experience: [
     {
-      period: "2026.12 - 至今（简历原文，日期待确认）",
-      title: "研究人员",
+      period: "2025.12 - 至今",
+      title: "博士后研究人员",
       org: "中国科学院杭州医学研究所",
-      detail: "根据 `resume/resume.txt`，当前在中国科学院杭州医学研究所从事 Agent 与人工智能相关研究。这里先保留原始日期信息，方便后续确认。"
+      detail: "根据 PDF 简历，目前在中国科学院杭州医学研究所开展博士后工作，继续围绕智能系统、深度学习和可落地的研究原型展开探索。"
     },
     {
-      period: "研究方向",
-      title: "Agent / 人工智能",
-      org: "当前重点",
-      detail: "研究兴趣集中在 Agent 与人工智能系统，偏向把研究问题做成能运行、能演示、能继续迭代的系统原型。"
+      period: "2022.10 - 2025.09",
+      title: "博士",
+      org: "日本国立山梨大学 / 系统集成工程",
+      detail: "博士阶段进一步聚焦视觉智能、模型设计与系统实现，形成了从研究设想到代码验证再到论文写作的完整训练。"
     },
     {
-      period: "持续构建中",
-      title: "个人主页与作品表达",
-      org: "独立项目",
-      detail: "通过个人主页、交互展示和摄影作品，把研究身份、审美兴趣和技术表达放到同一个叙事空间里。"
+      period: "2020.10 - 2022.09",
+      title: "硕士",
+      org: "日本国立山梨大学 / 计算机科学与技术",
+      detail: "硕士阶段围绕计算机科学与技术继续深入，为后续在深度学习、图像理解与科研表达上的工作打下基础。"
     }
   ],
-  projects: [
+  education: [
     {
-      title: "Research Copilot",
-      text: "一个把论文阅读、要点抽取、问题追踪和知识串联整合到一起的研究辅助原型。",
-      tags: ["LLM", "Summarization", "Workflow"]
+      period: "2022.10 - 2025.09",
+      school: "日本国立山梨大学",
+      degree: "博士",
+      major: "系统集成工程"
     },
     {
-      title: "Interactive Demo Site",
-      text: "将研究成果做成可以公开展示的交互页面，用程序驱动的动画提升理解与传播效果。",
-      tags: ["Frontend", "Animation", "Storytelling"]
+      period: "2020.10 - 2022.09",
+      school: "日本国立山梨大学",
+      degree: "硕士",
+      major: "计算机科学与技术"
     },
     {
-      title: "Retrieval Evaluation Toolkit",
-      text: "面向检索与问答系统的评测工具，帮助比较不同数据组织、检索策略和重排方案。",
-      tags: ["Evaluation", "IR", "Analysis"]
+      period: "2016.10 - 2020.06",
+      school: "杭州电子科技大学",
+      degree: "学士",
+      major: "计算机科学与技术"
+    }
+  ],
+  publications: [
+    {
+      year: "2025",
+      title: "Personalized Image Preference Assessment for Individuals with Color Vision Deficiency",
+      venue: "NICOGRAPH International 2025, Kanazawa, Japan",
+      note: "唯一第一作者。研究由本人主导，负责核心设想、实验方案、代码实现、数据处理、结果分析与论文初稿撰写。"
     },
     {
-      title: "Experiment Dashboard",
-      text: "把实验日志、关键指标和阶段结论整合成仪表盘，减少重复分析成本。",
-      tags: ["Dashboard", "Data", "Monitoring"]
+      year: "2024",
+      title: "Image recoloring for color vision deficiency compensation using Swin transformer",
+      venue: "Neural Computing and Applications, 36(11): 6051-6066",
+      note: "唯一第一作者。工作聚焦基于 Swin Transformer 的色觉缺陷补偿图像重着色方法。"
     }
   ],
   interestsSummary:
@@ -95,12 +99,9 @@ const profile = {
     }
   ],
   contactNote:
-    "欢迎交流研究、合作项目、技术实现或有趣的想法。你可以把这里替换成你的邮箱、GitHub、Google Scholar、LinkedIn 或个人社交链接。",
+    "欢迎通过邮箱联系我，交流研究、合作项目或学术问题。",
   contacts: [
-    { label: "Email", href: "mailto:your.name@example.com" },
-    { label: "GitHub", href: "https://github.com/yourname" },
-    { label: "Scholar", href: "https://scholar.google.com/" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/" }
+    { label: "Email", href: "mailto:ligengchen422@gmail.com" }
   ]
 };
 
@@ -115,16 +116,17 @@ setText("hero-name", profile.name);
 setText("hero-summary", profile.summary);
 setText("interests-summary", profile.interestsSummary);
 setText("contact-note", profile.contactNote);
+setText("contact-email", "ligengchen422@gmail.com");
 
 const roleNode = document.getElementById("hero-role");
 const keywordStack = document.getElementById("keyword-stack");
 const researchGrid = document.getElementById("research-grid");
 const timeline = document.getElementById("timeline");
-const projectsGrid = document.getElementById("projects-grid");
 const interestOrbits = document.getElementById("interest-orbits");
 const contactLinks = document.getElementById("contact-links");
-const focusCounter = document.getElementById("focus-counter");
 const photoGallery = document.getElementById("photo-gallery");
+const educationList = document.getElementById("education-list");
+const publicationList = document.getElementById("publication-list");
 
 function typeText(node, text, speed = 55) {
   let index = 0;
@@ -138,22 +140,6 @@ function typeText(node, text, speed = 55) {
   };
 
   tick();
-}
-
-function animateCounter(node, target) {
-  const duration = 1800;
-  const start = performance.now();
-
-  function step(now) {
-    const progress = Math.min((now - start) / duration, 1);
-    const eased = 1 - Math.pow(1 - progress, 3);
-    node.textContent = `${Math.round(target * eased)}%`;
-    if (progress < 1) {
-      requestAnimationFrame(step);
-    }
-  }
-
-  requestAnimationFrame(step);
 }
 
 function renderKeywordPills() {
@@ -195,18 +181,30 @@ function renderTimeline() {
   });
 }
 
-function renderProjects() {
-  profile.projects.forEach((item) => {
+function renderEducation() {
+  profile.education.forEach((item) => {
     const card = document.createElement("article");
-    card.className = "project-card reveal";
+    card.className = "education-item";
     card.innerHTML = `
-      <h3>${item.title}</h3>
-      <p>${item.text}</p>
-      <div class="project-tags">
-        ${item.tags.map((tag) => `<span>${tag}</span>`).join("")}
-      </div>
+      <div class="education-meta">${item.period}</div>
+      <h3>${item.school}</h3>
+      <p>${item.degree} / ${item.major}</p>
     `;
-    projectsGrid.appendChild(card);
+    educationList.appendChild(card);
+  });
+}
+
+function renderPublications() {
+  profile.publications.forEach((item) => {
+    const card = document.createElement("article");
+    card.className = "publication-item";
+    card.innerHTML = `
+      <div class="publication-meta">${item.year}</div>
+      <h3>${item.title}</h3>
+      <p>${item.venue}</p>
+      <p>${item.note}</p>
+    `;
+    publicationList.appendChild(card);
   });
 }
 
@@ -246,7 +244,7 @@ function renderContacts() {
     link.href = item.href;
     link.target = "_blank";
     link.rel = "noreferrer";
-    link.textContent = item.label;
+    link.textContent = "Send Email";
     contactLinks.appendChild(link);
   });
 }
@@ -266,20 +264,37 @@ function setupReveal() {
   document.querySelectorAll(".reveal, .timeline-item").forEach((node) => observer.observe(node));
 }
 
-function setupProjectMotion() {
-  projectsGrid.addEventListener("pointermove", (event) => {
-    const cards = projectsGrid.querySelectorAll(".project-card");
-    cards.forEach((card) => {
-      const rect = card.getBoundingClientRect();
-      const px = (event.clientX - rect.left) / rect.width - 0.5;
-      const py = (event.clientY - rect.top) / rect.height - 0.5;
-      card.style.transform = `rotateX(${py * -4}deg) rotateY(${px * 6}deg) translateY(-3px)`;
-    });
-  });
+function setupAnchorNavigation() {
+  const header = document.querySelector(".topbar");
+  const anchorLinks = document.querySelectorAll('a[href^="#"]');
 
-  projectsGrid.addEventListener("pointerleave", () => {
-    projectsGrid.querySelectorAll(".project-card").forEach((card) => {
-      card.style.transform = "";
+  anchorLinks.forEach((link) => {
+    link.addEventListener("click", (event) => {
+      const href = link.getAttribute("href");
+      if (!href || href === "#") {
+        return;
+      }
+
+      const target = document.querySelector(href);
+      if (!target) {
+        return;
+      }
+
+      event.preventDefault();
+
+      const headerHeight = header ? header.offsetHeight : 0;
+      const targetTop = target.getBoundingClientRect().top + window.scrollY;
+      const top = Math.max(targetTop - headerHeight - 18, 0);
+      window.scrollTo({
+        top,
+        behavior: "smooth"
+      });
+
+      window.setTimeout(() => {
+        if (window.location.hash !== href) {
+          window.location.hash = href;
+        }
+      }, 220);
     });
   });
 }
@@ -382,12 +397,12 @@ function setupCanvas() {
 renderKeywordPills();
 renderResearch();
 renderTimeline();
-renderProjects();
+renderEducation();
+renderPublications();
 renderPhotography();
 renderInterests();
 renderContacts();
 typeText(roleNode, profile.role);
-animateCounter(focusCounter, 96);
 setupReveal();
-setupProjectMotion();
+setupAnchorNavigation();
 setupCanvas();

@@ -17,7 +17,7 @@
     <nav class="nav">
       <a href="#research">研究方向</a>
       <a href="#experience">履历</a>
-      <a href="#projects">项目</a>
+      <a href="#resume-details">简历</a>
       <a href="#interests">兴趣</a>
       <a href="#contact">联系</a>
     </nav>
@@ -31,7 +31,7 @@
         <p class="hero-role" id="hero-role"></p>
         <p class="hero-summary" id="hero-summary"></p>
         <div class="hero-actions">
-          <a class="button primary" href="#projects">查看项目</a>
+          <a class="button primary" href="#resume-details">查看简历</a>
           <a class="button ghost" href="#contact">联系我</a>
         </div>
       </div>
@@ -39,10 +39,6 @@
       <div class="hero-panel glass">
         <div class="portrait-frame">
           <img class="portrait-image" src="image/selfie.jpg.jpg" alt="陈立庚个人头像">
-        </div>
-        <div class="signal">
-          <span class="signal-label">Focus</span>
-          <span class="signal-value" id="focus-counter">0</span>
         </div>
         <div class="keyword-stack" id="keyword-stack"></div>
       </div>
@@ -64,12 +60,21 @@
       <div class="timeline" id="timeline"></div>
     </section>
 
-    <section id="projects" class="section">
+    <section id="resume-details" class="section">
       <div class="section-heading">
-        <p class="eyebrow">Projects</p>
-        <h2>项目介绍</h2>
+        <p class="eyebrow">Resume</p>
+        <h2>简历摘要</h2>
       </div>
-      <div class="projects-grid" id="projects-grid"></div>
+      <div class="resume-grid">
+        <div class="resume-panel glass reveal">
+          <h3>教育背景</h3>
+          <div class="education-list" id="education-list"></div>
+        </div>
+        <div class="resume-panel glass reveal">
+          <h3>代表性成果</h3>
+          <div class="publication-list" id="publication-list"></div>
+        </div>
+      </div>
     </section>
 
     <section id="interests" class="section interests-section">
@@ -99,6 +104,7 @@
       </div>
       <div class="contact-card glass">
         <p id="contact-note"></p>
+        <p class="contact-email" id="contact-email"></p>
         <div class="contact-links" id="contact-links"></div>
       </div>
     </section>
