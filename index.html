@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Researcher Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <a class="brand" href="#hero">HOME</a>
+    <nav class="nav">
+      <a href="#research">研究方向</a>
+      <a href="#experience">履历</a>
+      <a href="#projects">项目</a>
+      <a href="#interests">兴趣</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">PERSONAL RESEARCH HOMEPAGE</p>
+        <h1 id="hero-name">你的名字</h1>
+        <p class="hero-role" id="hero-role"></p>
+        <p class="hero-summary" id="hero-summary"></p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">查看项目</a>
+          <a class="button ghost" href="#contact">联系我</a>
+        </div>
+      </div>
+
+      <div class="hero-panel glass">
+        <div class="signal">
+          <span class="signal-label">Focus</span>
+          <span class="signal-value" id="focus-counter">0</span>
+        </div>
+        <div class="keyword-stack" id="keyword-stack"></div>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Research</p>
+        <h2>研究方向</h2>
+      </div>
+      <div class="research-grid" id="research-grid"></div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+        <h2>履历与成长轨迹</h2>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>项目介绍</h2>
+      </div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </section>
+
+    <section id="interests" class="section interests-section">
+      <div class="section-heading">
+        <p class="eyebrow">Interests</p>
+        <h2>兴趣爱好</h2>
+      </div>
+      <div class="interests-layout">
+        <div class="interests-copy glass">
+          <p id="interests-summary"></p>
+        </div>
+        <div class="orbit-stage">
+          <div class="orbit-core">Outside Lab</div>
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="orbit orbit-c"></div>
+          <div id="interest-orbits"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>保持联系</h2>
+      </div>
+      <div class="contact-card glass">
+        <p id="contact-note"></p>
+        <div class="contact-links" id="contact-links"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
