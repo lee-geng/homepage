@@ -1,50 +1,50 @@
 const profile = {
-  name: "你的名字",
-  role: "Researcher / Builder / Problem Solver",
+  name: "陈立庚",
+  role: "Agent Researcher / AI Builder",
   summary:
-    "我关注智能系统、人机协作与数据驱动决策，喜欢把研究问题做成可验证、可展示、可落地的产品原型。这一页既是个人简介，也是我持续迭代研究与工程实践的入口。",
+    "我目前关注 Agent、人工智能系统与研究原型实现，喜欢把想法做成可验证、可交互、可展示的作品，让研究表达和工程落地能够在同一个界面里发生。",
   keywords: [
-    "LLM Systems",
+    "Agent Research",
+    "AI Systems",
     "Human-AI Collaboration",
-    "Information Retrieval",
-    "Trustworthy ML",
-    "Interactive Visualization"
+    "Interactive Visualization",
+    "Rapid Prototyping"
   ],
   research: [
     {
-      title: "智能体与工作流编排",
-      text: "探索大模型驱动的多步骤推理、工具调用与自动化协作，让复杂任务可以被拆解、执行并可追踪。",
-      tags: ["Agent", "Planning", "Tool Use"]
+      title: "Agent 研究",
+      text: "围绕智能体的推理、规划、工具调用与执行链路展开研究，希望让复杂任务能够被稳定拆解、协作完成并持续优化。",
+      tags: ["Agent", "Reasoning", "Workflow"]
     },
     {
-      title: "检索增强与知识系统",
-      text: "关注从异构数据中提取可靠上下文，将知识检索、重排与生成结合，提升问答与分析系统的稳定性。",
-      tags: ["RAG", "Ranking", "Knowledge Base"]
+      title: "人工智能系统",
+      text: "关注模型能力如何落到真实系统中，包括交互设计、信息组织、实验验证和从研究到原型的工程实现。",
+      tags: ["AI", "System Design", "Prototype"]
     },
     {
-      title: "可解释交互与可视分析",
-      text: "将模型能力与可视化结合，让研究成果不仅能工作，还能被直观理解、调试与展示。",
-      tags: ["Visualization", "UX", "Interpretability"]
+      title: "研究展示与交互表达",
+      text: "希望通过动画、可视化和叙事化页面，把研究思路、项目过程和个人表达整合成更有感染力的展示体验。",
+      tags: ["Visualization", "Storytelling", "Frontend"]
     }
   ],
   experience: [
     {
-      period: "2025 - Present",
-      title: "研究者 / 开发者",
-      org: "你的实验室或团队",
-      detail: "围绕智能系统、研究工程化与交互展示开展工作，负责原型设计、实验迭代与技术呈现。"
+      period: "2026.12 - 至今（简历原文，日期待确认）",
+      title: "研究人员",
+      org: "中国科学院杭州医学研究所",
+      detail: "根据 `resume/resume.txt`，当前在中国科学院杭州医学研究所从事 Agent 与人工智能相关研究。这里先保留原始日期信息，方便后续确认。"
     },
     {
-      period: "2023 - 2025",
-      title: "研究生阶段",
-      org: "你的学校或机构",
-      detail: "聚焦机器学习、信息检索或相关方向，参与科研项目、实验平台建设与学术表达。"
+      period: "研究方向",
+      title: "Agent / 人工智能",
+      org: "当前重点",
+      detail: "研究兴趣集中在 Agent 与人工智能系统，偏向把研究问题做成能运行、能演示、能继续迭代的系统原型。"
     },
     {
-      period: "Earlier",
-      title: "基础训练与跨学科积累",
-      org: "你的经历补充",
-      detail: "在编程、数学、写作与协作中持续打磨能力，形成面向问题的研究与实现习惯。"
+      period: "持续构建中",
+      title: "个人主页与作品表达",
+      org: "独立项目",
+      detail: "通过个人主页、交互展示和摄影作品，把研究身份、审美兴趣和技术表达放到同一个叙事空间里。"
     }
   ],
   projects: [
@@ -70,8 +70,30 @@ const profile = {
     }
   ],
   interestsSummary:
-    "工作之外，我也持续从运动、阅读、摄影、旅行和音乐里获取灵感。这些兴趣让我在研究中更关注节奏、结构、叙事和长期投入。",
-  interests: ["阅读", "摄影", "跑步", "旅行", "音乐", "咖啡"],
+    "摄影是我最想放进这个主页的一部分。镜头训练我观察结构、光线和瞬间，这种审美和耐心也会自然带回到研究、界面设计和作品表达里。",
+  interests: ["摄影", "阅读", "旅行", "跑步", "音乐", "咖啡"],
+  photography: [
+    {
+      src: "photography/DSCF2392.JPG",
+      title: "Temple Roof",
+      description: "建筑线条、木质纹理与秋日光线。"
+    },
+    {
+      src: "photography/DSCF2616.JPG",
+      title: "Travel Note",
+      description: "把旅行中的空间感和节奏保存下来。"
+    },
+    {
+      src: "photography/DSCF2636.JPG",
+      title: "Street Moment",
+      description: "偏爱带有生活温度和叙事感的街头画面。"
+    },
+    {
+      src: "photography/DSCF2689.JPG",
+      title: "Landscape Frame",
+      description: "在风景里练习构图、层次和颜色关系。"
+    }
+  ],
   contactNote:
     "欢迎交流研究、合作项目、技术实现或有趣的想法。你可以把这里替换成你的邮箱、GitHub、Google Scholar、LinkedIn 或个人社交链接。",
   contacts: [
@@ -102,6 +124,7 @@ const projectsGrid = document.getElementById("projects-grid");
 const interestOrbits = document.getElementById("interest-orbits");
 const contactLinks = document.getElementById("contact-links");
 const focusCounter = document.getElementById("focus-counter");
+const photoGallery = document.getElementById("photo-gallery");
 
 function typeText(node, text, speed = 55) {
   let index = 0;
@@ -198,6 +221,21 @@ function renderInterests() {
     node.style.setProperty("--duration", durations[index % durations.length]);
     node.innerHTML = `<span>${item}</span>`;
     interestOrbits.appendChild(node);
+  });
+}
+
+function renderPhotography() {
+  profile.photography.forEach((item) => {
+    const card = document.createElement("article");
+    card.className = "photo-card reveal";
+    card.innerHTML = `
+      <img src="${item.src}" alt="${item.title}">
+      <div class="photo-caption">
+        <h3>${item.title}</h3>
+        <p>${item.description}</p>
+      </div>
+    `;
+    photoGallery.appendChild(card);
   });
 }
 
@@ -345,6 +383,7 @@ renderKeywordPills();
 renderResearch();
 renderTimeline();
 renderProjects();
+renderPhotography();
 renderInterests();
 renderContacts();
 typeText(roleNode, profile.role);
